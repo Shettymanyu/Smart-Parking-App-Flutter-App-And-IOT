@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878354228454",
+    "project_id": "parkapp-adbde",
+    "storage_bucket": "parkapp-adbde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878354228454:android:ab90dee6af81b819e48727",
+        "android_client_info": {
+          "package_name": "com.example.car_parking_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGQ8ODsYzjhFitsHRLN45LaxPZXhAquA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
