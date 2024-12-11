@@ -29,3 +29,7 @@ AI Chatbot Build - https://youtu.be/SWP3k-24jT4?si=dhdkHtJGxnbyjNZt
 
 
 chatgpt - https://chatgpt.com
+
+
+
+playwright - https://youtube.com/playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8&si=_Gm5SR7k1ijU6mCf
