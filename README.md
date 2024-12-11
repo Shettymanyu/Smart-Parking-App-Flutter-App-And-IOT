@@ -32,6 +32,12 @@ chatgpt - https://chatgpt.com
 
 youtube - https://www.youtube.com/
 
+links - for auto form fill
+
+1. https://youtu.be/YbGAUEjTKg4?si=5EA1ybt2CQMznQ-S
+2. https://youtu.be/kVFcE4M6lw0?si=yeBbe7R_g_OMe7qS
+3. https://youtu.be/BvU7qfdrqjc?si=oQ2po6aq8T7EU8ew
+
 samay - https://youtu.be/lr1L_xUKB1E?si=WisPXrGfvbf_LNjl
 
 
