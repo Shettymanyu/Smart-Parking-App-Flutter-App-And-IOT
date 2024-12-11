@@ -26,3 +26,6 @@ python mosh - https://youtu.be/_uQrJ0TkZlc?si=5zsH7-HT7pDy1E11
 
 
 AI Chatbot Build - https://youtu.be/SWP3k-24jT4?si=dhdkHtJGxnbyjNZt
+
+
+chatgpt - https://chatgpt.com
