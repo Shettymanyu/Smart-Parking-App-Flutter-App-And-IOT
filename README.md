@@ -32,6 +32,8 @@ chatgpt - https://chatgpt.com
 
 youtube - https://www.youtube.com/
 
+samay - https://youtu.be/lr1L_xUKB1E?si=WisPXrGfvbf_LNjl
+
 
 
 playwright - https://youtube.com/playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8&si=_Gm5SR7k1ijU6mCf
