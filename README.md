@@ -49,3 +49,10 @@ https://youtu.be/y8zY14HHiPI?si=FsO-CAwOMLvObjZo
 
 
 playwright - https://youtube.com/playlist?list=PLhW3qG5bs-L9sJKoT1LC5grGT77sfW0Z8&si=_Gm5SR7k1ijU6mCf
+
+
+
+
+https://youtu.be/B8nIt0TCJik?si=TxxFBF16UzcLUbVl
+
+
