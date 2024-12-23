@@ -62,3 +62,15 @@ https://youtu.be/1PCWwK0AsE0?si=w8IOJnTBqjtCXhpf
 Web automation - https://youtube.com/playlist?list=PLRzwgpycm-FiTz9bGQoITAzFEOJkbF6Qp&si=kDl11XDzGXspIter
 
 
+
+
+
+https://youtube.com/playlist?list=PL7yh-TELLS1G9mmnBN3ZSY8hYgJ5kBOg-&si=XrvG7Xkaz07l6-Ux
+
+
+
+
+
+
+
+
