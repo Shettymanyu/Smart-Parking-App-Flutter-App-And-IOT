@@ -64,9 +64,12 @@ Web automation - https://youtube.com/playlist?list=PLRzwgpycm-FiTz9bGQoITAzFEOJk
 
 
 
+https://youtu.be/QM5XDc4NQJo?si=4dAuj7MVwUBbA-SY
 
-https://youtube.com/playlist?list=PL7yh-TELLS1G9mmnBN3ZSY8hYgJ5kBOg-&si=XrvG7Xkaz07l6-Ux
+https://youtu.be/t0EzVCvQjGE?si=rcC_17U83m-7g72W
 
+
+https://youtu.be/Nyw922bqYAQ?si=PIT6yhmDWPYPMFeD
 
 
 
