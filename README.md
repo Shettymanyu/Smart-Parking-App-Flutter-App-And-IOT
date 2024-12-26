@@ -77,3 +77,33 @@ https://youtu.be/Nyw922bqYAQ?si=PIT6yhmDWPYPMFeD
 
 
 
+from playwright.sync_api import Playwright, sync_playwright
+
+def export_csv_report(url):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_page()
+        page.goto(url)
+
+        # Locate the "CSV file format" radio button and click it
+        csv_button = page.locator("text=CSV file format")
+        csv_button.click()
+
+        # Locate and click the "Export" button
+        export_button = page.locator("text=Export")
+        export_button.click()
+
+        # Wait for the export process to complete (adjust timeout as needed)
+        page.wait_for_timeout(5000)
+
+        browser.close()
+
+if __name__ == "__main__":
+    url = "https://your_queue_outline_report_url"  # Replace with the actual URL
+    export_csv_report(url)
+
+
+
+
+
+
