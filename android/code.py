@@ -45,3 +45,35 @@ async def select_dates():
 
 # Run the script
 asyncio.run(select_dates())
+
+
+import pyautogui
+import time
+
+def trigger_volume_box():
+    # Simulate pressing the volume up and down keys to trigger the volume box
+    pyautogui.press('volumeup')
+    pyautogui.press('volumedown')
+
+def main(delay_seconds=1, num_loops=None):
+    print("Triggering volume box in a loop.")
+    print("Press Ctrl+C to stop.")
+
+    loop_count = 0
+    while True:
+        trigger_volume_box()
+        time.sleep(delay_seconds)
+
+        if num_loops is not None and loop_count >= num_loops:
+            break
+
+        loop_count += 1
+
+if __name__ == "__main__":
+    # Run the loop indefinitely with a 1-second delay between each iteration
+    main(delay_seconds=1)
+    # Run the loop for 5 iterations with a 2-second delay between each iteration
+    # main(delay_seconds=2, num_loops=5)
+
+
+
