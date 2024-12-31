@@ -74,6 +74,69 @@ if __name__ == "__main__":
     main(delay_seconds=1)
     # Run the loop for 5 iterations with a 2-second delay between each iteration
     # main(delay_seconds=2, num_loops=5)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+import playwright
+from playwright.sync_api import Playwright, Page, Browser
+
+def read_email(email_content):
+    # Parse the email content to extract the transaction ID
+    # ... (implementation depends on email format and library used)
+    transaction_id = extract_transaction_id(email_content)
+    return transaction_id
+
+def check_payment_status(page, transaction_id):
+    # Navigate to the website
+    page.goto("https://your_payment_website")
+
+    # Find and input the transaction ID into the search bar
+    search_bar = page.locator("#transaction_id_input")
+    search_bar.fill(transaction_id)
+
+    # Submit the search
+    search_button = page.locator("#search_button")
+    search_button.click()
+
+    # Wait for the payment status to load
+    page.wait_for_timeout(5000)
+
+    # Extract the payment status from the website's response
+    payment_status_element = page.locator("#payment_status")
+    payment_status = payment_status_element.inner_text()
+
+    return payment_status
+
+def main():
+    # Replace with your email reading logic
+    email_content = get_email_content()
+
+    transaction_id = read_email(email_content)
+
+    with playwright.sync_api.Playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_page()
+        
+        payment_status = check_payment_status(page, transaction_id)
+
+        print(f"Payment status for transaction ID {transaction_id}: {payment_status}")
+
+        browser.close()
+
+if __name__ == "__main__":
+    main()
 
 
 
