@@ -1,0 +1,29 @@
+name: tidy
+
+on:
+  schedule:
+    - cron: "17 1-23/3 * * *" # every 3 hours, staggered with the other repos
+  workflow_dispatch: # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  tidy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Self-test
+        run: node bot/touch.js --test
+
+      # Commits as YOU (noreply email), not github-actions[bot], so it counts on the graph.
+      - name: Tidy one source file
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+          node bot/touch.js
