@@ -21,4 +21,3 @@ class SplaceController extends GetxController {
     }
   }
 }
-
