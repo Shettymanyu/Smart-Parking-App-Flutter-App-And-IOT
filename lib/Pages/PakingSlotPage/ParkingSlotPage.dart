@@ -187,4 +187,3 @@ class ParkingSlotPage extends StatelessWidget {
     );
   }
 }
-
