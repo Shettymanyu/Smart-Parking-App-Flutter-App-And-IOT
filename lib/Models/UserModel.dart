@@ -23,3 +23,4 @@ class UserModel {
     return data;
   }
 }
+
