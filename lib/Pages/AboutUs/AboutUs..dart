@@ -148,4 +148,3 @@ class AboutUs extends StatelessWidget {
     );
   }
 }
-
