@@ -283,4 +283,3 @@ class ParkingController1 extends GetxController {
     isLoading.value = false;
   }
 }
-
