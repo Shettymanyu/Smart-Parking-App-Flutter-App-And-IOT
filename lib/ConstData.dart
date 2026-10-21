@@ -7,3 +7,4 @@ const bio =
 const linkedin = "https://www.linkedin.com/in/shettymanyu/";
 const youtube = "https://www.youtube.com/channel/UCOlVZu3xix0m-sMDSattr1A";
 const github = "https://github.com/Shettymanyu";
+
