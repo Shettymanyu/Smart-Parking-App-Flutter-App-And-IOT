@@ -275,3 +275,4 @@ class BookingPage extends StatelessWidget {
     );
   }
 }
+
