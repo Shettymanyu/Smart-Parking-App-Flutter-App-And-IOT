@@ -9,3 +9,4 @@ class ThemeController extends GetxController {
     Get.changeThemeMode(isDark.value ? ThemeMode.dark : ThemeMode.light);
   }
 }
+
