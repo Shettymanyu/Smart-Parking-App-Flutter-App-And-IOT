@@ -264,3 +264,4 @@ class ParkingController extends GetxController {
     }
   }
 }
+
