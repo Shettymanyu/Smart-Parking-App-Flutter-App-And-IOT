@@ -68,3 +68,4 @@ class ParkingModel {
     return data;
   }
 }
+
