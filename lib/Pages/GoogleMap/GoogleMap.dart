@@ -110,3 +110,4 @@ class GoogleMapPage extends StatelessWidget {
     );
   }
 }
+
