@@ -175,3 +175,4 @@ var darkTheme = ThemeData(
         fontWeight: FontWeight.w300,
       ),
     ));
+
