@@ -27,4 +27,3 @@ class CctvController extends GetxController {
     super.dispose();
   }
 }
-
